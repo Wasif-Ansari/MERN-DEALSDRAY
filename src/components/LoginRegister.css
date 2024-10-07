@@ -1,0 +1,82 @@
+/* Overall container styling */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00d1d1; /* Light grey background */
+}
+
+/* Form styling */
+.auth-form {
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px; /* Limit form width */
+}
+
+/* Toggle button styling */
+.auth-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-toggle button {
+    background-color: #003e80; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-toggle button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da; /* Light grey border */
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+}
+
+/* Button styling */
+.btn1 {
+    background-color: #003e80; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #218dff; /* Darker blue on hover */
+}
